@@ -13,4 +13,6 @@ func main() {
 	createdDate := time.Date(1998, time.October, 11, 0, 0, 0, 0, time.Local)
 	fmt.Println(createdDate)
 	fmt.Println(createdDate.Format("01-02-2006 Monday"))
+
+	time.Sleep(5)
 }
