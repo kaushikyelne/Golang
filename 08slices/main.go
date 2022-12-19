@@ -15,5 +15,8 @@ func main() {
 	sort.Ints(scores)
 	fmt.Println(scores)
 	fmt.Println(scores[:3])
+	var index = 3
+	scores = append(scores[:index], scores[index+1:]...)
+	fmt.Println(scores)
 
 }
